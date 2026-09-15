@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2000" height="500" viewBox="0 0 2000 500">
+
+<defs>
+
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#061B35"/>
+<stop offset="100%" stop-color="#0F3B73"/>
+</linearGradient>
+
+<linearGradient id="blueGlow" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0%" stop-color="#38BDF8" stop-opacity=".25"/>
+<stop offset="100%" stop-color="#2563EB" stop-opacity=".05"/>
+</linearGradient>
+
+<linearGradient id="textGlow">
+<stop offset="0%" stop-color="#FFFFFF"/>
+<stop offset="100%" stop-color="#BAE6FD"/>
+</linearGradient>
+
+</defs>
+
+
+<!-- Background -->
+
+<rect 
+x="10"
+y="10"
+width="1980"
+height="480"
+rx="32"
+fill="url(#bg)"
+stroke="#2563EB"
+stroke-opacity=".35"
+/>
+
+
+
+<!-- Digital Grid -->
+
+<g opacity=".08" stroke="#BAE6FD">
+
+<line x1="80" y1="20" x2="80" y2="480"/>
+<line x1="160" y1="20" x2="160" y2="480"/>
+<line x1="240" y1="20" x2="240" y2="480"/>
+<line x1="320" y1="20" x2="320" y2="480"/>
+<line x1="400" y1="20" x2="400" y2="480"/>
+<line x1="480" y1="20" x2="480" y2="480"/>
+<line x1="560" y1="20" x2="560" y2="480"/>
+<line x1="640" y1="20" x2="640" y2="480"/>
+
+<line x1="20" y1="100" x2="1980" y2="100"/>
+<line x1="20" y1="200" x2="1980" y2="200"/>
+<line x1="20" y1="300" x2="1980" y2="300"/>
+<line x1="20" y1="400" x2="1980" y2="400"/>
+
+</g>
+
+
+
+<!-- Abstract Technology Glow -->
+
+<circle cx="1650" cy="120" r="230" fill="url(#blueGlow)"/>
+
+<circle cx="1800" cy="380" r="150" fill="#38BDF8" opacity=".08"/>
+
+
+
+<!-- Network -->
+
+<g stroke="#38BDF8" stroke-width="2" opacity=".35">
+
+<line x1="1450" y1="120" x2="1650" y2="220"/>
+<line x1="1650" y1="220" x2="1850" y2="140"/>
+<line x1="1650" y1="220" x2="1750" y2="350"/>
+
+</g>
+
+
+<g fill="#38BDF8">
+
+<circle cx="1450" cy="120" r="8"/>
+<circle cx="1650" cy="220" r="12"/>
+<circle cx="1850" cy="140" r="8"/>
+<circle cx="1750" cy="350" r="10"/>
+
+</g>
+
+
+
+<!-- Brand -->
+
+<text
+x="120"
+y="150"
+font-family="Inter,Segoe UI,Arial"
+font-size="72"
+font-weight="800"
+fill="url(#textGlow)">
+ALL WEB SOLUTION
+</text>
+
+
+<text
+x="122"
+y="195"
+font-family="Inter,Segoe UI,Arial"
+font-size="25"
+fill="#7DD3FC">
+Engineering &amp; Digital Innovation Hub
+</text>
+
+
+
+<!-- Main Statement -->
+
+<text
+x="120"
+y="270"
+font-family="Inter,Segoe UI,Arial"
+font-size="34"
+font-weight="700"
+fill="white">
+Building. Innovating. Sharing.
+</text>
+
+
+
+<!-- Description -->
+
+<text
+x="120"
+y="325"
+font-family="Inter,Segoe UI,Arial"
+font-size="25"
+fill="#DBEAFE">
+
+<tspan x="120">
+An internal technology organization focused on
+</tspan>
+
+<tspan x="120" dy="38">
+software engineering, web solutions, automation,
+</tspan>
+
+<tspan x="120" dy="38">
+and open-source collaboration.
+</tspan>
+
+</text>
+
+
+
+<!-- Divider -->
+
+<line
+x1="120"
+y1="430"
+x2="850"
+y2="430"
+stroke="#38BDF8"
+stroke-width="2"
+stroke-opacity=".6"
+/>
+
+
+
+<!-- Footer -->
+
+<text
+x="120"
+y="470"
+font-family="Inter,Segoe UI,Arial"
+font-size="22"
+fill="#BAE6FD">
+
+SOFTWARE • WEB DEVELOPMENT • AUTOMATION • OPEN SOURCE
+
+</text>
+
+
+
+<!-- Right decorative code blocks -->
+
+<g opacity=".18" fill="none" stroke="#7DD3FC">
+
+<rect x="1500" y="80" width="260" height="150" rx="20"/>
+<rect x="1580" y="280" width="220" height="120" rx="20"/>
+
+</g>
+
+
+<g opacity=".25" fill="#BAE6FD">
+
+<circle cx="1540" cy="120" r="5"/>
+<circle cx="1565" cy="120" r="5"/>
+<circle cx="1590" cy="120" r="5"/>
+
+</g>
+
+
+
+</svg>
