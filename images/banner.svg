@@ -165,21 +165,6 @@ stroke-opacity=".6"
 
 
 
-<!-- Footer -->
-
-<text
-x="120"
-y="470"
-font-family="Inter,Segoe UI,Arial"
-font-size="22"
-fill="#BAE6FD">
-
-SOFTWARE • WEB DEVELOPMENT • AUTOMATION • OPEN SOURCE
-
-</text>
-
-
-
 <!-- Right decorative code blocks -->
 
 <g opacity=".18" fill="none" stroke="#7DD3FC">
